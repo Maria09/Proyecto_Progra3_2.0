@@ -1,0 +1,164 @@
+/*css de nosotros
+*/
+.espacio{
+  height: 15%;
+}
+
+/*
+comienza css de plantilla
+*/
+
+
+.content-sm {
+  padding-top:0;
+  padding-bottom: 40px;
+}
+
+.content-md {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.color-white {
+    color: #fff;
+}
+
+
+
+
+/*--------------------------------------------------
+    [Vertical Center Aligned Block]
+    Using CSS3 Translate3D
+----------------------------------------------------*/
+.ver-center-aligned-block {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  -webkit-transform: translate3d(0, -50%, 0);
+  -moz-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+}
+
+
+/*--------------------------------------------------
+    [Sliding Background]
+----------------------------------------------------*/
+.sliding-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.sliding-bg.sliding-bg-semi-dark:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 7%;
+  width: 86%;
+  height: 100%;
+  background: rgba(52, 52, 60, 0.6);
+  content: " ";
+}
+
+.sliding-bg.sliding-bg-semi-white:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  content: " ";
+}
+
+.sliding-bg .sliding-bg-img {
+  margin-left: 7%;
+  width: 86%;
+  height: 40%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.sliding-bg .sliding-bg-title {
+  font-size: 100px;
+  font-style: italic;
+  font-weight: 400;
+  font-family: Droid Serif, serif;
+  letter-spacing: 10px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.sliding-bg .sliding-bg-subtitle {
+  display: block;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.sliding-bg .sliding-bg-text {
+  font-size: 20px;
+}
+
+/* Sliding Background Left */
+.sliding-bg .sliding-bg-left {
+  -webkit-animation-name: sliding-bg-left;
+  -moz-animation-name: sliding-bg-left;
+  animation-name: sliding-bg-left;
+  -webkit-animation-duration: 300s;
+  -moz-animation-duration: 300s;
+  animation-duration: 300s;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+/* Keyframes - Sliding Left */
+@-webkit-keyframes sliding-bg-left {
+  100% {
+    background-position: -3840px 0;
+  }
+}
+
+@-moz-keyframes sliding-bg-left {
+  100% {
+    background-position: -3840px 0;
+  }
+}
+
+@keyframes sliding-bg-left {
+  100% {
+    background-position: -3840px 0;
+  }
+}
+
+
+/* Media Queries below 768px */
+@media (max-width: 768px) {
+  .sliding-bg .sliding-bg-title {
+    font-size: 70px;
+  }
+  .sliding-bg .sliding-bg-subtitle {
+    font-size: 30px;
+  }
+  .sliding-bg .sliding-bg-text {
+    font-size: 18px;
+  }
+}
+
+/* Media Queries below 480px */
+@media (max-width: 480px) {
+  .sliding-bg .sliding-bg-title {
+    font-size: 50px;
+  }
+  .sliding-bg .sliding-bg-subtitle {
+    font-size: 26px;
+  }
+  .sliding-bg .sliding-bg-text {
+    font-size: 16px;
+  }
+}

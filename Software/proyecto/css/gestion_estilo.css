@@ -1,0 +1,54 @@
+#details1{
+	margin-top: 50px;
+	border:1px solid black;
+	border-radius: 6px;
+	margin-bottom: 100px;
+	box-shadow: 10px 10px 5px 0px;
+	width: 70%;
+	margin-left: 15%;
+
+}
+
+#details1 summary{
+	cursor: pointer;
+	color: white;
+}
+
+#Gestion{
+	color: black;
+}
+
+#details1 label{
+	margin-left: 25px;
+}
+
+.row{
+	margin-bottom: 20px;
+}
+
+#cmb_idUsuario{
+	width: 100%;
+}
+
+
+#cmb_idCliente{
+	width: 100%;	
+}
+
+
+#cmb_tipoGes{
+	width: 100%;	
+}
+
+#btn_registrarGestion{
+	margin-bottom: 25px;
+	margin-left: 100%;
+	width: 100%;
+}
+
+#btn_registrarGestion:hover{
+	color: white;
+	background: black;
+	height: 40px;
+}
+

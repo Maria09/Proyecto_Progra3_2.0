@@ -1,0 +1,45 @@
+#details1{
+	margin-top: 50px;
+	border:1px solid black;
+	border-radius: 6px;
+	margin-bottom: 100px;
+	box-shadow: 10px 10px 5px 0px;
+	width: 80%;
+	margin-left: 10%;
+
+}
+
+#details1 summary{
+	cursor: pointer;
+	color: white;
+}
+
+#RegisFam{
+	color: black;
+}
+
+.input{
+	margin-bottom: 25px;
+	width: 60%;
+
+}
+
+.select{
+	width: 60%;
+	height: 26px;
+	margin-bottom: 25px;
+}
+
+#btnRegisFam{
+	margin-bottom: 25px;
+	float: right;
+}
+
+#btnRegisFam:hover{
+	color: white;
+	background: black;
+	height: 40px;
+}
+#details1 label{
+	margin-left: 25px;
+}

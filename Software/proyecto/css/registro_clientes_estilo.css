@@ -1,0 +1,45 @@
+		#details1{
+			margin-top: 50px;
+			border:1px solid black;
+			border-radius: 6px;
+			margin-bottom: 100px;
+			box-shadow: 10px 10px 5px 0px;
+
+		}
+
+		#details1 summary{
+			cursor: pointer;
+			color: white;
+		}
+
+		#RegisEst{
+			color: black;
+		}
+
+		.input{
+			margin-bottom: 25px;
+			width: 60%;
+		}
+
+		#btnRegisClien{
+			margin-bottom: 25px;
+			float: right;
+		}
+
+		#btnRegisClien:hover{
+			color: white;
+			background: black;
+			height: 40px;
+		}
+
+		.select{
+			width: 60%;
+			height: 26px;
+			margin-bottom: 25px;
+		}
+
+#details1 label{
+	margin-left: 25px;
+}
+
+
